@@ -1,0 +1,26 @@
+/* AboutMe.module.css */
+.aboutMeContainer {
+    text-align: center;
+    padding: 50px 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #1a1a1a
+  }
+  
+  .aboutMeTitle {
+    font-family: 'Georgia', serif; /* Use your preferred cursive font */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f4ebeb;
+  }
+  
+  .aboutMeText {
+    font-family: 'Georgia', serif; /* Use your preferred cursive font */
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2;
+    max-width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
