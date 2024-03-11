@@ -14,17 +14,3 @@
     justify-content: space-around;
   }
   
-  .navItem {
-    margin-right: 10px;
-  }
-  
-  .navLink {
-    text-decoration: none;
-    color: #333333;
-    transition: color 0.3s ease;
-  }
-  
-  .navLink:hover {
-    color: #0070f3;
-  }
-  

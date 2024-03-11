@@ -1,20 +1,6 @@
-import Link from 'next/link';
 import styles from '../../styles/common/Navbar.module.css';
+import NavItem from './NavItem';
 
-interface NavItemProps {
-  href: string;
-  label: string;
-}
-
-const NavItem: React.FC<NavItemProps> = ({ href, label }) => {
-  return (
-    <li className={styles.navItem}>
-      <Link href={href}>
-        <span className={styles.navLink}>{label.toUpperCase()}</span>
-      </Link>
-    </li>
-  );
-};
 
 const Navbar: React.FC = () => {
   return (
