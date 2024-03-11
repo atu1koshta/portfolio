@@ -75,6 +75,7 @@
   }
 
   .introContainer {
+    margin-top: 20px;
     justify-content: center; /* Center horizontally */
   }
 

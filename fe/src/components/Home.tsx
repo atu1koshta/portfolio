@@ -44,7 +44,7 @@ const Home: React.FC = () => {
         <div className={styles.introContent}>
           <h1 className={styles.title}>Hi, I am Atul Koshta</h1>
           <p className={styles.description}>
-            Aspired and self-motivated freelancer
+          Full-Stack Developer, Result-Oriented Technocrat with Analytical & Critical Skills
           </p>
         </div>
       </div>
