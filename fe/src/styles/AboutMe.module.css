@@ -23,4 +23,10 @@
     margin: 0 auto;
     color: #ffffff;
   }
+
+  @media (max-width: 768px) {
+    .aboutMeText {
+      font-size: 0.8rem;
+    }
+  }
   
