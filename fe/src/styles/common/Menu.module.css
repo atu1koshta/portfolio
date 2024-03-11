@@ -1,0 +1,42 @@
+/* Menu.module.css */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu.open {
+    display: flex;
+  }
+  
+  .menuItems {
+    text-align: center;
+  }
+  
+  .menuItems ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menuItems li {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  

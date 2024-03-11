@@ -1,4 +1,7 @@
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 75%;
     margin: 20px auto;
     background-color: #ffffff;
@@ -11,6 +14,12 @@
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
   }
   
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide the navbar on mobile devices */
+    }
+  }

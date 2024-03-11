@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  
+}
+
+.introContainer {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  justify-content: flex-end; /* Align intro to the left */
+  align-items: center; /* Center vertically */
+}
+
+/* Styles for the imageContainer */
+.imageContainer {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center; /* Center vertically */
+  position: relative; /* Enable positioning for child elements */
+}
+
+
+
+.introContent {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the container without distortion */
+}
+
+.hamburgerIcon {
+  position: relative;
+  margin: 20px;
+}
+
+.hamburgerIconWrapper {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Hide the image and adjust introContainer width */
+  .container {
+    overflow: hidden;
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh;
+  }
+  
+  .imageContainer {
+    flex: 3; /* Reset flex property */
+    width: 90%; /* Take up 90% of the width */
+    margin: 0 auto; /* Center horizontally */
+    top: 10px;
+  }
+
+  .introContainer {
+    justify-content: center; /* Center horizontally */
+  }
+
+  .introContent{
+    text-align: center;
+  }
+
+  .hamburgerContainer{
+    margin-bottom: 25px;
+  }
+
+  .hamburgerIconWrapper {
+    display: inline-block;
+    margin: 10px;
+  }
+}
